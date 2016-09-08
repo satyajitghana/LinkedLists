@@ -7,9 +7,11 @@
 //
 
 #include <iostream>
+#include "stacks.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    stacks();
     return 0;
 }
