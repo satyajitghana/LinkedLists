@@ -29,9 +29,15 @@ void push(node* ptr) {
     no++;
     if (top==NULL) top=ptr;
     else {
-        save=top;
+        //Now we dont need a save pointer. I don't know why they used a *save. Maybe to confuse students ?
+        
+       /* save=top;
         top=ptr;
-        ptr->next=save; }
+        ptr->next=save; */
+        
+        ptr->next=top;
+        top=ptr;
+    }
 }
 
 void pop() {
