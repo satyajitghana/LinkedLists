@@ -14,7 +14,7 @@ using namespace std;
 struct node {
     int data;
     node *next;
-}*top,*save,*newptr,*ptr;
+}*top,*newptr,*ptr;
 
 static int no=1;
 
